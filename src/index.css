@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #e0ecf8, #f8f9fa); /* soft blueish-white gradient */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec); /* soft gradient background */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* softer and deeper shadow */
+  padding: 44px;
+  border-radius: 10px;
+  margin-top: 55px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container h1 {
+  font-size: 54px;
+  position: absolute;
+  top: 11%;
+  margin-left: 6%;
+  text-align: center;
+  color: #333; /* darker text for better readability */
+}
+
+.container button {
+  position: relative;
+  margin-top: 25%;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  margin-inline: 11px;
+  cursor: pointer;
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.start {
+  background-color: #28a745;
+}
+
+.start:hover {
+  background-color: #218838;
+}
+
+.stop {
+  background-color: #dc3545;
+}
+
+.stop:hover {
+  background-color: #c82333;
+}
+
+.reset {
+  background-color: #007bff;
+}
+
+.reset:hover {
+  background-color: #0069d9;
+}
+
+
